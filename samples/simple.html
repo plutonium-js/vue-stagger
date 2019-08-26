@@ -24,9 +24,14 @@
 			height: 100%;
 			font-size:2.5vw;
 			font-family:Impact, Charcoal, Sans-Serif;
-			font-size:4.5vmin;
 			text-align: center;
 			color:#888;
+		}
+		#button {
+			position:absolute;
+			top:2vmin;
+			left:2vmin;
+			padding:10px;
 		}
 		#myStagger {
 			display:flex;
@@ -75,6 +80,7 @@
 <body style="">
 
 <div id="app">
+	<button id="button" @click="show=!show">Hide / Show</button>
 	<pu-stagger
 		id = "myStagger"
 		tag = "div"

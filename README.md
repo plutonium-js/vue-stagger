@@ -5,7 +5,7 @@ An advanced Vue.js component that adds staggered CSS transition animations to ch
    * Define animations with pure CSS transitions
    * Control transitions with a simple 'show' Boolean value
    * Transitions auto reverse when changing the 'show' state while active
-   * Perfect for animating drop down menus and lists.
+   * Perfect for animating drop down menus and lists
 
 
 ### Links
@@ -112,7 +112,7 @@ Add CSS transitions that target Stagger child elements as shown below...
    }
 </style>
 ```
-Stagger conditionally adds the following class names to your child elements...
+Stagger conditionally adds the following class names...
    * '<strong>item</strong>' - Applied to all child elements.
    * '<strong>item-to</strong>' - Applied to all child elements when show is true (applied on a stagger).
    * '<strong>item-from</strong>' - Applied to all child elements when show is false (applied on a stagger).

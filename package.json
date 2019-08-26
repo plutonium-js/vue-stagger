@@ -1,6 +1,6 @@
 {
 	"name": "@plutonium-js/vue-stagger",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "An advanced Vue.js component that adds staggered CSS transition animations to child elements / nodes.",
 	"main": "./dist/bundle.umd.js",
 	"module": "./dist/bundle.esm.js",

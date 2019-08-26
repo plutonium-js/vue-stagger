@@ -22,6 +22,7 @@ An advanced Vue.js component that adds staggered CSS transition animations to ch
    * [CDN Script Tags](#CDN-Script-Tags)
 * [Instantiate](#instantiate)
 * [Animate](#animate)
+* [License](#license)
 
 
 ### <a id="install"></a>Install
@@ -50,7 +51,7 @@ An advanced Vue.js component that adds staggered CSS transition animations to ch
    
     Add the component directly to a web page.
    ```html
-   <script src="https://cdn.jsdelivr.net/npm/@plutonium-js/vue-stagger@1/dist/bundle.umd.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@plutonium-js/vue-stagger@1/dist/bundle.umd.js"></script>
    <script>
       Vue.use(window.puStagger);
    </script>
@@ -135,7 +136,7 @@ Trigger Stagger transitions by changing the 'show' property...
 	});
 </script>
 ```
-The following shows all the code required to create a simple stagger transition...
+The following shows the code required to create a simple stagger transition...
 ```html
 <style>
    #myStagger>.item {
@@ -183,7 +184,7 @@ The following shows all the code required to create a simple stagger transition.
 
 **[:arrow_up_small:](#bookmarks)**	
 
-### <a id="License"></a>License
+### <a id="license"></a>License
 
 Released under the [MIT license](LICENSE.md)
 

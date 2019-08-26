@@ -1,0 +1,40 @@
+{
+	"name": "@plutonium-js/vue-stagger",
+	"version": "1.0.1",
+	"description": "An advanced Vue.js component that adds staggered CSS transition animations to child elements / nodes.",
+	"main": "./dist/bundle.umd.js",
+	"module": "./dist/bundle.esm.js",
+	"scripts": {
+		"build": "rollup -c",
+		"watch": "rollup -c --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/plutonium-js/vue-stagger"
+	},
+	"homepage": "https://plutonium.dev/wp/libraries/vue-stagger/",
+	"author": "Jesse Dalessio [https://plutonium.dev]",
+	"license": "MIT",
+	"keywords": [
+		"vue",
+		"vue.js",
+		"vue component",
+		"stagger",
+		"stagger animation",
+		"stagger animate",
+		"staggered animation",
+		"staggered",
+		"stagger transition",
+		"staggered transition",
+		"css transition"
+	],
+	"peerDependencies": {
+		"vue": "^2.0.0"
+	},
+	"devDependencies": {
+		"rollup-plugin-commonjs": "^10.0.2",
+		"rollup-plugin-vue": "^5.0.1",
+		"rollup-watch": "^4.3.1",
+		"rollup-plugin-terser": "^5.1.1"
+	}
+}
